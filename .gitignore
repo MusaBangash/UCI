@@ -1,0 +1,6 @@
+secrets/
+data/
+logs/
+models/
+.venv/
+__pycache__/

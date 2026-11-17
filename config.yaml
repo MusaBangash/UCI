@@ -1,0 +1,12 @@
+landing:
+  provider: google_drive_personal   # change to google_drive_shared when moved
+  folder_id: 1a808OqC11FqvVHC_6ZPvNXYZ4CWrVcoe
+  incoming_subfolder: landing
+  archive_subfolder: archive
+  file_pattern: "diabetic_data*.csv"
+  credentials_path: secrets/drive-service-account.json
+
+raw_storage:
+  path: data/raw
+  filename_format: "diabetic_data_{date}.csv"
+  record_path: logs/ingestion_records.csv 
